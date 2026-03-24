@@ -1,4 +1,8 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>
+{% if site.owner.github %}
+<img src="https://github.com/{{ site.owner.github }}.png?size=200" class="bio-photo" alt="{{ site.owner.name }} GitHub avatar" width="100" height="100">
+{% else %}
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100">
+{% endif %}
 
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
