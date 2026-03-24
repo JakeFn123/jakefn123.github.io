@@ -6,7 +6,7 @@ title: Projects
 
 # Work Projects
 
-**Lance: just a template page right now.**
+**Jake: just a template page right now.**
 
 ## GoDaddy Domain Appraisals
 

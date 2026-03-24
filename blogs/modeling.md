@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /blogs/modeling/index.html
-title: Lance Club
+title: Jake Club
 ---
 
-## Lance的数模训练营
+## Jake的数模训练营
 
-> 训练营主理人：范朝宇 Lance
+> 训练营主理人：范朝宇 Jake
 >
 > 报名、咨询方式见文末
 
