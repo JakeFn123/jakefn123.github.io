@@ -1,6 +1,13 @@
-{% if site.owner.avatar %}<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>{% endif %}
+{% if site.owner.avatar_url %}
+<img src="{{ site.owner.avatar_url }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="112" height="112">
+{% elsif site.owner.avatar %}
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="112" height="112">
+{% endif %}
 
+{% if site.owner.position %}<p><strong>{{ site.owner.position }}</strong></p>{% endif %}
+{% if site.owner.affiliation %}<p>{{ site.owner.affiliation }}</p>{% endif %}
 <p>{{ site.owner.bio }}</p>
+{% if site.owner.location %}<p>{{ site.owner.location }}</p>{% endif %}
 
 {% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %}
 

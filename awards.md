@@ -1,24 +1,28 @@
 ---
 layout: page
 permalink: /awards/index.html
-title: Milestones
+title: Academic Profile
 ---
 
-This section is being refreshed from a legacy template into a more personal record of progress.
+This page is a concise profile page rather than a traditional award list.
 
-## Current Milestones
+## Current Status
 
-- Launching a cleaner personal website under my own name
-- Reframing this site around my real interests and long-term direction
-- Converting scattered work into a more coherent public portfolio
+- PhD student in Artificial Intelligence at Tongji University
+- Building a more research-oriented public profile
+- Organizing code, writing, and project work into a coherent academic website
 
-## What Will Live Here
+## Technical Orientation
 
-- notable project milestones
-- meaningful recognition and achievements
-- moments that changed the direction of my work
-- important academic, technical, or creative progress markers
+- AI systems
+- research tooling
+- machine learning workflows
+- software systems for knowledge-intensive tasks
 
-## Why This Page Exists
+## Background Notes
 
-I want this page to track signal, not noise. Instead of collecting everything, I plan to keep only the milestones that genuinely reflect growth, taste, and capability.
+My public GitHub profile previously emphasized a broader engineering background spanning autonomous driving, firmware development, cloud computing, and full-stack development. This site now reframes that broader technical experience within a more academic and research-centered narrative.
+
+## Going Forward
+
+Over time, this page can expand with formal milestones such as publications, talks, research outputs, selected honors, and other academic progress markers.

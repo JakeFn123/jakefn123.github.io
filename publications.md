@@ -1,41 +1,35 @@
 ---
 layout: page
 permalink: /publications/index.html
-title: Work
+title: Projects
 ---
 
-This page is being rebuilt into a cleaner overview of Chaoyu Fan's selected work.
+This page highlights selected technical projects and public work.
 
-## Focus Areas
+## Featured Projects
+
+- [jakefn123.github.io](https://github.com/JakeFn123/jakefn123.github.io)
+An academic personal website for presenting research direction, projects, and writing with a cleaner long-term structure.
+
+- [research_nanobot](https://github.com/JakeFn123/research_nanobot)
+An AI assistant and workflow framework focused on multi-agent execution, tool integration, and research-oriented automation.
+
+- [openspec-zh-tutorial](https://github.com/JakeFn123/openspec-zh-tutorial)
+A Chinese-language tutorial project for OpenSpec, focusing on specification-first development and AI-assisted software workflows.
+
+- [paperrank](https://github.com/JakeFn123/paperrank)
+A paper search and evaluation agent for decomposing research questions, retrieving evidence, scoring relevance, and producing evidence-backed synthesis.
+
+## Ongoing Themes
 
 - AI systems and agentic workflows
-- Product prototyping and technical exploration
-- Writing, documentation, and knowledge capture
-- Software experiments that combine utility with strong taste
+- Research infrastructure and computational tooling
+- Structured documentation and specification workflows
+- Practical interfaces for technical reasoning and collaboration
 
-## Selected Work Themes
+## What I Want This Page To Become
 
-### AI Tooling
-
-Projects in this category focus on how people can think, build, and operate faster with the help of modern AI systems.
-
-### Research and Prototyping
-
-This includes exploratory work where the goal is not just shipping, but understanding a space deeply enough to identify what is worth building next.
-
-### Personal Infrastructure
-
-This site itself is part of that work: a living system for presenting identity, organizing output, and making future iterations easier.
-
-## In Progress
-
-- Turning raw project history into readable case studies
-- Curating a smaller number of stronger public project pages
-- Adding links, screenshots, and writeups for representative work
-
-## Next Additions
-
-- Featured projects
-- Writing archive
-- Resume or profile summary
-- Collaboration-ready project descriptions
+- short case studies
+- links to demos and documentation
+- clearer research motivation behind each project
+- a better bridge between code artifacts and academic interests

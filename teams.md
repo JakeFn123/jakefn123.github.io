@@ -1,38 +1,34 @@
 ---
 layout: page
 permalink: /teams/index.html
-title: Collaborations
+title: Research
 ---
 
-## How I Like to Collaborate
+## Overview
 
-I enjoy working with people who are ambitious, practical, and thoughtful about what they build. The best collaborations for me usually combine clear goals, strong feedback loops, and enough room for experimentation.
+My current research-facing interests center on AI systems, structured technical workflows, and tools that support rigorous knowledge work.
 
-## Areas I Enjoy Working In
+## Research Interests
 
-- AI product concepts and MVPs
-- Research-to-product translation
-- Technical writing and structured documentation
-- Personal tools, workflow systems, and automation
-- Early-stage idea shaping and narrative framing
+- AI systems and agentic architectures
+- Research tooling and computational assistance
+- Multi-agent collaboration and workflow design
+- Knowledge organization, specification, and synthesis
+- Machine learning systems with practical usability constraints
 
-## What I Value in Teams
+## Collaboration Style
 
-- Clear communication
-- Ownership without ego
-- Fast iteration with honest feedback
-- Taste in both product and execution
-- Curiosity backed by follow-through
+I like research and engineering collaboration that combines conceptual clarity with fast implementation. I value teams that can move from idea formation to executable systems, while still preserving documentation quality, interpretability, and reproducibility.
 
 ## Current Direction
 
-I am using this site as a foundation for future collaboration. Over time, this page will evolve into a better overview of:
+This website is evolving into a clearer academic profile. Over time, this page will better document:
 
-- people and teams I work with
-- recurring project themes
-- ongoing initiatives
-- ways to get in touch for meaningful collaboration
+- ongoing research themes
+- technical collaborations
+- project directions connected to my doctoral work
+- ways to connect for meaningful academic or technical discussion
 
-## If You Want to Reach Out
+## Contact
 
-If you think we should build, write, or explore something together, email me at `2410202@tongji.edu`.
+If your work overlaps with AI systems, research infrastructure, or computational workflows, feel free to reach out at `2410202@tongji.edu`.

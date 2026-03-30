@@ -1,27 +1,31 @@
 title: Chaoyu Fan
-description: Personal website of Chaoyu Fan.
+description: Academic homepage of Chaoyu Fan, PhD student in Artificial Intelligence at Tongji University.
 url: https://jakefn123.github.io
 baseurl: ""
 
 owner:
   name: Chaoyu Fan
   avatar:
-  bio: Builder, researcher, and writer exploring AI systems, product thinking, and creative technology.
+  avatar_url: https://avatars.githubusercontent.com/u/92729974?v=4
+  bio: PhD student in Artificial Intelligence at Tongji University, working across AI systems, research tooling, and computational workflows.
   email: 2410202@tongji.edu
   github: JakeFn123
-  linkedin: Chaoyu Fan
+  linkedin: chaoyu-fan
   instagram: jakefan45
+  affiliation: Tongji University
+  position: PhD Student in Artificial Intelligence
+  location: Shanghai, China
 
 google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 
 links:
   - title: Home
     url: /
-  - title: Collaborations
+  - title: Research
     url: /teams/
-  - title: Work
+  - title: Projects
     url: /publications/
-  - title: Milestones
+  - title: Academic Profile
     url: /awards/
   - title: Interests
     url: /hobbies/
