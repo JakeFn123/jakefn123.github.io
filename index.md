@@ -23,6 +23,12 @@ layout: page
   <h2>Biography</h2>
   <p>I am currently a PhD student in Artificial Intelligence at Tongji University. My broader interests sit at the intersection of intelligent systems, research infrastructure, and practical software design. I am especially interested in how AI can help people organize knowledge, automate complex workflows, and interact with technical systems more effectively.</p>
   <p>Before my current doctoral work, my public GitHub profile highlighted experience across autonomous driving, embedded systems, cloud computing, and full-stack development. On this website, I am reframing that broader technical background into a more coherent academic and research-facing profile.</p>
+  <ul class="fact-list">
+    <li><strong>Affiliation:</strong> Tongji University</li>
+    <li><strong>Program:</strong> PhD in Artificial Intelligence</li>
+    <li><strong>Location:</strong> Shanghai, China</li>
+    <li><strong>Focus:</strong> AI systems, research tooling, and computational workflows</li>
+  </ul>
 </section>
 
 <section class="section-block">
@@ -45,14 +51,8 @@ layout: page
 
 <section class="section-block">
   <h2>Selected Projects</h2>
-  <p class="section-note">Based on my three most recently updated GitHub repositories as of March 30, 2026.</p>
+  <p class="section-note">Based on my three most recently updated GitHub repositories as of March 30, 2026, excluding this website repository.</p>
   <div class="project-grid">
-    <div class="project-card">
-      <p class="project-meta">Updated March 30, 2026</p>
-      <h3><a href="https://github.com/JakeFn123/jakefn123.github.io">jakefn123.github.io</a></h3>
-      <p>An academic personal website for presenting research direction, technical projects, and public-facing writing in a clean long-term format.</p>
-      <p class="project-tags">Jekyll · Academic Web Presence · Personal Knowledge Infrastructure</p>
-    </div>
     <div class="project-card">
       <p class="project-meta">Updated March 29, 2026</p>
       <h3><a href="https://github.com/JakeFn123/research_nanobot">research_nanobot</a></h3>
@@ -64,6 +64,27 @@ layout: page
       <h3><a href="https://github.com/JakeFn123/openspec-zh-tutorial">openspec-zh-tutorial</a></h3>
       <p>A Chinese tutorial project that explains OpenSpec from fundamentals to practical usage, with emphasis on AI-assisted specification and structured software workflows.</p>
       <p class="project-tags">Specification Engineering · AI Collaboration · Chinese Technical Writing</p>
+    </div>
+    <div class="project-card">
+      <p class="project-meta">Updated March 24, 2026</p>
+      <h3><a href="https://github.com/JakeFn123/paperrank">paperrank</a></h3>
+      <p>A paper search and evaluation agent for decomposing research questions, retrieving evidence, ranking relevance, and producing evidence-backed synthesis.</p>
+      <p class="project-tags">Python · Literature Analysis · Evidence Synthesis</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-block">
+  <h2>Selected Scholarly Records</h2>
+  <p class="section-note">Publicly searchable records associated with the name Chaoyu Fan. A public Google Scholar profile link has not yet been clearly confirmed.</p>
+  <div class="timeline-list">
+    <div class="timeline-item">
+      <strong>WOCC 2025</strong>
+      <p><a href="https://www.wocc.org/wocc2025/technical-program/details.pdf">Class Incremental Learning via Feature Knowledge Prompts</a>, listed with authors Jun Ma, Chaoyu Fan, Lihua Shi, Kefan Wang, and Qi Kang.</p>
+    </div>
+    <div class="timeline-item">
+      <strong>Computers, Materials & Continua, 2023</strong>
+      <p><a href="https://www.techscience.com/cmc/v77n2/54810/html">The Entity Relationship Extraction Method Using Improved RoBERTa and Multi-Task Learning</a>, indexed as C. Fan in Tech Science Press.</p>
     </div>
   </div>
 </section>
