@@ -422,3 +422,18 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .contact-list li{margin-bottom:0.45em;list-style-type:square;}
 .article-author-top img.bio-photo,.article-author-bottom img.bio-photo{border-radius:18px;border:1px solid #d9e2e8;box-shadow:0 8px 24px rgba(20,33,45,0.08);}
 @media only screen and (max-width:48em){.hero-card{padding:1.4em;} .hero-card h1{font-size:2.2rem;max-width:none;} .feature-grid,.project-grid{grid-template-columns:1fr;} .tag-row{gap:0.45em;}}
+
+/* Accessibility and readability refinements */
+.article-wrap{max-width:42rem;}
+.article-wrap p,.article-wrap li{font-size:1.01rem;line-height:1.82;color:#24313b;}
+.article-wrap ul,.article-wrap ol{padding-left:1.2rem;}
+.article-wrap li+li{margin-top:0.35rem;}
+.hero-lead{font-size:1.12rem;color:#2a3d4a;line-height:1.78;}
+.section-note{font-size:0.98rem;color:#455968;}
+.feature-card p,.timeline-item p,.project-card p{color:#30424e;}
+.project-card{min-height:15.5rem;padding:1.3em;}
+.project-meta{font-size:0.82rem;color:#52697b;}
+.project-tags{font-size:0.92rem;color:#3e5463;}
+.tag-row span{padding:0.5em 0.95em;background:rgba(255,255,255,0.88);border-color:rgba(28,63,90,0.18);font-size:0.8rem;color:#23445b;}
+a:focus-visible,.btn:focus-visible,.top-navigation a:focus-visible{outline:3px solid #8fb4d1;outline-offset:3px;border-radius:6px;}
+@media only screen and (max-width:48em){.project-card{min-height:auto;} .article-wrap{max-width:none;}}

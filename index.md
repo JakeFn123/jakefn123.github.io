@@ -4,8 +4,8 @@ layout: page
 
 <section class="hero-card">
   <p class="eyebrow">Chaoyu Fan / 范朝宇</p>
-  <h1>PhD student in Artificial Intelligence at Tongji University.</h1>
-  <p class="hero-lead">I work on AI systems, research tooling, and computational workflows that make complex technical work more structured, reproducible, and useful. This website collects my current academic profile, project directions, and public technical output.</p>
+  <h1>PhD student in Intelligent Science and Technology, Tongji University.</h1>
+  <p class="hero-lead">Chaoyu Fan is a doctoral student in Electronic Information, Intelligent Science and Technology at Tongji University. His current work focuses on agent systems, machine learning, and engineering optimization.</p>
   <div class="hero-actions">
     <a class="btn" href="mailto:2410202@tongji.edu">Email Me</a>
     <a class="btn" href="https://github.com/JakeFn123">GitHub</a>
@@ -21,13 +21,14 @@ layout: page
 
 <section class="section-block">
   <h2>Biography</h2>
-  <p>I am currently a PhD student in Artificial Intelligence at Tongji University. My broader interests sit at the intersection of intelligent systems, research infrastructure, and practical software design. I am especially interested in how AI can help people organize knowledge, automate complex workflows, and interact with technical systems more effectively.</p>
-  <p>Before my current doctoral work, my public GitHub profile highlighted experience across autonomous driving, embedded systems, cloud computing, and full-stack development. On this website, I am reframing that broader technical background into a more coherent academic and research-facing profile.</p>
+  <p>范朝宇，1998年出生，2020年美国普渡大学获电子信息工程本科荣誉学位，2023年美国哥伦比亚大学获电子与计算机工程硕士学位，现攻读同济大学电子信息智能科学与技术博士学位。</p>
+  <p>曾就职于卡特彼勒中国(研发)中心、华为等世界500强公司，任工程师。现师从爱思唯尔全球前2％顶尖科学家同济大学康琦教授，主要研究智能体系统、机器学习与工程优化等。曾获中国国际大学生创新大赛金奖。</p>
   <ul class="fact-list">
     <li><strong>Affiliation:</strong> Tongji University</li>
-    <li><strong>Program:</strong> PhD in Artificial Intelligence</li>
+    <li><strong>Program:</strong> PhD in Electronic Information, Intelligent Science and Technology</li>
     <li><strong>Location:</strong> Shanghai, China</li>
-    <li><strong>Focus:</strong> AI systems, research tooling, and computational workflows</li>
+    <li><strong>Advisor:</strong> Prof. Qi Kang</li>
+    <li><strong>Focus:</strong> Agent systems, machine learning, and engineering optimization</li>
   </ul>
 </section>
 
@@ -35,16 +36,16 @@ layout: page
   <h2>Research Interests</h2>
   <div class="feature-grid">
     <div class="feature-card">
-      <h3>AI Systems</h3>
-      <p>I am interested in robust AI-native systems that connect models, tools, memory, and interfaces into usable research or productivity workflows.</p>
+      <h3>Agent Systems</h3>
+      <p>I am interested in intelligent agent systems that integrate planning, memory, tool use, and human-in-the-loop decision making.</p>
     </div>
     <div class="feature-card">
-      <h3>Research Tooling</h3>
-      <p>I care about tooling for literature analysis, specification-driven development, evidence synthesis, and other workflows that support serious technical work.</p>
+      <h3>Machine Learning</h3>
+      <p>I work on machine learning methods and system-level workflows that improve model usefulness, adaptability, and practical deployment value.</p>
     </div>
     <div class="feature-card">
-      <h3>Computational Workflows</h3>
-      <p>I study how structured pipelines, multi-agent collaboration, and careful human-in-the-loop design can improve reliability and efficiency.</p>
+      <h3>Engineering Optimization</h3>
+      <p>I care about optimization problems arising in real engineering systems, especially where intelligent methods can improve efficiency and decision quality.</p>
     </div>
   </div>
 </section>
@@ -93,16 +94,16 @@ layout: page
   <h2>Technical Background</h2>
   <div class="timeline-list">
     <div class="timeline-item">
-      <strong>Research-facing software</strong>
-      <p>Building systems that help structure research questions, specifications, retrieval, synthesis, and collaborative execution.</p>
+      <strong>Academic training</strong>
+      <p>Honors B.S. in Electronic Information Engineering from Purdue University and M.S. in Electrical and Computer Engineering from Columbia University.</p>
     </div>
     <div class="timeline-item">
-      <strong>Engineering breadth</strong>
-      <p>My GitHub profile has historically spanned autonomous driving, firmware development, embedded systems, cloud computing, and full-stack software.</p>
+      <strong>Industrial experience</strong>
+      <p>Engineering experience at Caterpillar China R&D Center and Huawei, with exposure to real-world technical systems and product-oriented engineering practice.</p>
     </div>
     <div class="timeline-item">
-      <strong>Implementation languages</strong>
-      <p>I have recently worked primarily in Python, Java, and JavaScript/TypeScript, depending on the project and system layer.</p>
+      <strong>Current direction</strong>
+      <p>My present doctoral work centers on intelligent agents, machine learning, and engineering optimization, with an emphasis on practical systems and research-facing tooling.</p>
     </div>
   </div>
 </section>
