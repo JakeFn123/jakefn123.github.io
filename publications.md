@@ -1,43 +1,41 @@
 ---
 layout: page
 permalink: /publications/index.html
-title: Publications
+title: Work
 ---
 
-> Lastest Update: 12th Feb 2024&nbsp;  [中文版本 (Chinese Version)](https://caihanlin.com/file/publications-zh/)
+This page is being rebuilt into a cleaner overview of Chaoyu Fan's selected work.
 
-## Conference Paper
+## Focus Areas
 
-- [Securing Billion Bluetooth Devices leveraging Learning-based Techniques](https://www.researchgate.net/publication/378144932)<br>*Final year project (FYP).*<br>**Chaoyu Fan**, Yuchen Fang, Meng Yuan, Tozammel Hossain, Zhezhuang Xu<br>AAAI Conference on Artificial Intelligence, Undergraduate Consortium ([AAAI 2024 UC](https://aaai.org/aaai-conference/undergraduate-consortium-program/))<br>Vancouver, Canada. February, 2024. Full paper will be submitted to KDD 2024.
+- AI systems and agentic workflows
+- Product prototyping and technical exploration
+- Writing, documentation, and knowledge capture
+- Software experiments that combine utility with strong taste
 
-- [Optimizing Traffic Sign Detection System Using Deep Residual Neural Networks Combined with Analytic Hierarchy Process Model](https://www.researchgate.net/publication/374730865)<br>*Junior year course design.*<br>**Chaoyu Fan**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>The 28th International Conference on Artificial Life and Robotics (ICAROB 2023)<br>Beppu, Japan. February, 2023.<br>Recommended for expanding publication in the Journal of Advances in Artificial Life Robotics (EI Compendex).
+## Selected Work Themes
 
-- [An IoT Garbage Monitoring System for Effective Garbage Management](https://www.researchgate.net/publication/368410220_An_IoT_Garbage_Monitoring_System_for_Effective_Garbage_Management)<br>Freshman course design, early project.<br>Chaoyu Fan, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
+### AI Tooling
 
-<br>
+Projects in this category focus on how people can think, build, and operate faster with the help of modern AI systems.
 
-## Journal Paper
+### Research and Prototyping
 
-- Coming soon!
+This includes exploratory work where the goal is not just shipping, but understanding a space deeply enough to identify what is worth building next.
 
-  <br>
+### Personal Infrastructure
 
----
+This site itself is part of that work: a living system for presenting identity, organizing output, and making future iterations easier.
 
-## Working Manuscript
+## In Progress
 
-- Detecting Multiple-mix-attack in IoT Networks through Reconstruction and Classiﬁcation Machine Learning Techniques<br>
+- Turning raw project history into readable case studies
+- Curating a smaller number of stronger public project pages
+- Adding links, screenshots, and writeups for representative work
 
-- Multi-objective Optimization Model Based on Analysis of Human-Land Relationship Coupling: A Case Study of the Masai Mara National Reserve<br>
+## Next Additions
 
-  <br>
-
----
-
-## Undergrad Thesis
-
-- Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks<br>**Chaoyu Fan** (Advisor: Zhezhuang Xu). Final Year Project (FYP). Under working<br>Already published a poster paper at AAAI 2024<br>Expect to submit a long paper to IEEE Internet of Things Journal.
-
-- [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-report.pdf)<br>**Chaoyu Fan** (Advisor: Zhezhuang Xu, Yuxiong Xia). Junior-year Intern Program.<br>Industrial Placement Report in [Huading Tech](http://www.hdim.com.cn/) and [IACTIP Lab](https://dqxy.fzu.edu.cn/en/)<br>
-
-  <br>
+- Featured projects
+- Writing archive
+- Resume or profile summary
+- Collaboration-ready project descriptions

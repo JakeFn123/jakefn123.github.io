@@ -1,61 +1,37 @@
-title: Chaoyu Fan 
-# tagline: Here is personal website of Chaoyu Fan. Powered by Jekyll, based on the Minimal Mistakes theme.
-# description: Two roads diverged in woods, I took the one less traveled by.
-#Comment out url when working locally to resolve base urls correctly
+title: Chaoyu Fan
+description: Personal website of Chaoyu Fan.
 url: https://jakefn123.github.io
 baseurl: ""
 
-# Owner/author information
 owner:
   name: Chaoyu Fan
-  avatar: hanlin.jpg
-  # bio: Two roads diverged in woods, I took the one less traveled by.
+  avatar:
+  bio: Builder, researcher, and writer exploring AI systems, product thinking, and creative technology.
   email: 2410202@tongji.edu
-  cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
   github: JakeFn123
   linkedin: Chaoyu Fan
   instagram: jakefan45
-  # lastfm:
-  # tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:
 
-# Analytics and webmaster tools stuff goes here
-# https://search.google.com/search-console/ownership
 google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# bing_verify: ""
-
-# Links to include in top navigation
-# For external links add external: true
 links:
-  - title: About Me
+  - title: Home
     url: /
-  - title: Teams
+  - title: Collaborations
     url: /teams/
-  - title: Publications
+  - title: Work
     url: /publications/
-  - title: Awards
+  - title: Milestones
     url: /awards/
-  - title: Hobbies
+  - title: Interests
     url: /hobbies/
-  - title: Blogs
+  - title: Notes
     url: /blogs/
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
 future: true
 highlighter: rouge
-# markdown: kramdown
-# markdown: redcarpet
-# pygments: true
-
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
+permalink: /:categories/:title
 
 kramdown:
   auto_ids: true
@@ -64,19 +40,8 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-  # coderay:
-  #   coderay_line_numbers:
-  #   coderay_line_numbers_start: 1
-  #   coderay_tab_width: 4
-  #   coderay_bold_every: 10
-  #   coderay_css: class
-
-
-# disqus settings:
 disqus:
-  shortname: lancecai
+  shortname:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-# Latest update in 2023/12/10 by Chaoyu Fan.

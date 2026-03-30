@@ -1,19 +1,29 @@
-# GuangLun means Nimbus in Chinese ✨
+# Chaoyu Fan Personal Website
 
-Here is **Chaoyu Fan (Jake, 范朝宇)**. This is my personal web repo. If you like it, please star it! 🥰
+This repository powers [https://jakefn123.github.io/](https://jakefn123.github.io/), the personal website of **Chaoyu Fan (范朝宇)**.
 
-## Update and News
+## What This Site Is For
 
-- **Jan 2024:** This Github web project has reached 300+ Stars🌟 Thank you!!!
-- **May 2023:** [Jekyll website building videos](https://www.bilibili.com/video/BV1ja4y1G7tX/) have been uploaded to Bilibili (小白建站视频)
-- **April 2023:** [Website building tutorials](https://caihanlin.com/blogs/web/) have been post on my blog (建站完全指南)
-- **Feb. 2023:** If you have any problem, please feel free to contact me at - *hanlin[dot]cai[at]ieee[dot]org*
-- **Dec. 2022:** My personal website have been implemented and deployed in [caihanlin.com](https://caihanlin.com)
+- Presenting Chaoyu's profile, interests, and current focus
+- Collecting selected projects, notes, and long-form writing
+- Serving as a lightweight digital home built on GitHub Pages
 
-## Star History
+## Structure
 
-[![Star History Chart](https://api.star-history.com/svg?repos=GuangLun2000/GuangLun2000.github.io&type=Date)](https://star-history.com/#GuangLun2000/GuangLun2000.github.io&Date)
+- `index.md`: homepage
+- `_config.yml`: site metadata and navigation
+- `publications.md`: selected work and writing
+- `teams.md`: collaboration and community page
+- `awards.md`: milestones and recognition
+- `hobbies.md`: personal interests
+- `blogs.md`: writing and notes
 
-## Statement
+## Stack
 
-© 2024 Chaoyu Fan. Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme and [Jason Ansel's site](https://github.com/jansel/jansel.github.io). Source code for this website can be found [here](https://github.com/GuangLun2000/GuangLun2000.github.io).
+- GitHub Pages
+- Jekyll
+- Markdown content pages
+
+## Maintenance
+
+Update the Markdown pages directly, commit changes, and push to GitHub. GitHub Pages will rebuild the site automatically after the push reaches `main`.
