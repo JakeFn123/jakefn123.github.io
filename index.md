@@ -4,7 +4,6 @@ layout: page
 
 <section class="hero-card compact-hero">
   <p class="eyebrow">Chaoyu Fan / 范朝宇</p>
-  <h1>PhD Student in Intelligent Science and Technology</h1>
   <p class="hero-lead">Tongji University. Researching agent systems, machine learning, and engineering optimization.</p>
   <div class="hero-actions">
     <a class="btn" href="mailto:2410202@tongji.edu">Email</a>
