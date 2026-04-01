@@ -2,6 +2,7 @@
 layout: page
 permalink: /hobbies/index.html
 title: Interests
+description: The interests and background of Chaoyu Fan — technology as craft, systems thinking, and life beyond research.
 ---
 
 <div class="blk-v2">

@@ -2,6 +2,7 @@
 layout: page
 permalink: /teams/index.html
 title: Research
+description: Research directions and lab of Chaoyu Fan at Tongji University — agentic AI systems, continual learning, and engineering optimization under Prof. Qi Kang.
 ---
 
 <div class="blk-v2">

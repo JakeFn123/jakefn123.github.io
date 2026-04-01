@@ -2,6 +2,7 @@
 layout: page
 permalink: /blogs/index.html
 title: Notes
+description: Technical notes and essays by Chaoyu Fan on agent system design, research process, and applied machine learning.
 ---
 
 <div class="blk-v2">

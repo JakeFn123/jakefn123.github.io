@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/index.html
 title: Projects
+description: Open-source research projects by Chaoyu Fan — multi-agent workflows, paper retrieval systems, and specification-first AI tooling.
 ---
 
 <div class="blk-v2">

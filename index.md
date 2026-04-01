@@ -1,5 +1,6 @@
 ---
 layout: page
+description: Chaoyu Fan is a PhD researcher at Tongji University working on agent systems, machine learning, and engineering optimization. Previously Columbia University and Purdue University.
 ---
 
 <!-- HERO -->

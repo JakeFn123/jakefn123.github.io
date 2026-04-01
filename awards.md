@@ -2,6 +2,7 @@
 layout: page
 permalink: /awards/index.html
 title: Academic Profile
+description: Publications, education, and awards of Chaoyu Fan — PhD researcher at Tongji University in intelligent agent systems and machine learning.
 ---
 
 <div class="blk-v2">
