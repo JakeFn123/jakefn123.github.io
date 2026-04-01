@@ -751,8 +751,15 @@ a:focus-visible,.btn:focus-visible,.top-navigation a:focus-visible{outline:3px s
 }
 
 /* ---- SIDEBAR (author-bio) ---- */
-/* Ensure sidebar text remains readable on light background */
-.article-author-top p{color:#2e4a5e !important;}
+/* Reset p+p indent/margin that causes misaligned sidebar text */
+.article-author-top p{
+  color:#2e4a5e !important;
+  text-indent:0 !important;
+  margin-top:0 !important;
+  margin-bottom:.4rem !important;
+  font-size:.82rem !important;
+  line-height:1.5 !important;
+}
 
 /* ---- RESPONSIVE ---- */
 @media only screen and (max-width:48em){
