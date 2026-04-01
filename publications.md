@@ -4,32 +4,59 @@ permalink: /publications/index.html
 title: Projects
 ---
 
-This page highlights selected technical projects and public work.
+<div class="blk-v2">
+  <div class="sh-v2">Open-Source Projects</div>
+  <p class="sh-note">Selected work on GitHub · <a href="https://github.com/JakeFn123">github.com/JakeFn123</a></p>
 
-## Featured Projects
+  <div class="proj-grid">
 
-- [jakefn123.github.io](https://github.com/JakeFn123/jakefn123.github.io)
-An academic personal website for presenting research direction, projects, and writing with a cleaner long-term structure.
+    <a class="proj-card" href="https://github.com/JakeFn123/research_nanobot">
+      <div class="pc-top">
+        <span class="pc-badge">Python</span>
+        <span class="pc-when">Mar 2026</span>
+      </div>
+      <div class="pc-name">research_nanobot</div>
+      <p>Lightweight multi-agent framework for research automation. Supports tool-use, memory, and structured workflow execution — designed for PhD-level research tasks like literature triage, data annotation, and hypothesis tracking.</p>
+      <div class="pc-tags"><span>Multi-Agent</span><span>Workflow</span><span>LLM</span><span>Python</span></div>
+    </a>
 
-- [research_nanobot](https://github.com/JakeFn123/research_nanobot)
-An AI assistant and workflow framework focused on multi-agent execution, tool integration, and research-oriented automation.
+    <a class="proj-card" href="https://github.com/JakeFn123/paperrank">
+      <div class="pc-top">
+        <span class="pc-badge">Python</span>
+        <span class="pc-when">Mar 2026</span>
+      </div>
+      <div class="pc-name">paperrank</div>
+      <p>Agentic paper search and evaluation system. Decomposes research questions into sub-queries, retrieves and scores papers by relevance, and produces evidence-backed literature summaries with ranked citations.</p>
+      <div class="pc-tags"><span>Retrieval</span><span>NLP</span><span>Agents</span><span>Python</span></div>
+    </a>
 
-- [openspec-zh-tutorial](https://github.com/JakeFn123/openspec-zh-tutorial)
-A Chinese-language tutorial project for OpenSpec, focusing on specification-first development and AI-assisted software workflows.
+    <a class="proj-card" href="https://github.com/JakeFn123/openspec-zh-tutorial">
+      <div class="pc-top">
+        <span class="pc-badge pc-badge-docs">Docs</span>
+        <span class="pc-when">Mar 2026</span>
+      </div>
+      <div class="pc-name">openspec-zh-tutorial</div>
+      <p>Chinese-language tutorial for OpenSpec and specification-first AI workflow design. Covers how structured specs enable reproducible, auditable AI-assisted engineering processes.</p>
+      <div class="pc-tags"><span>Specs</span><span>AI Collab</span><span>Documentation</span><span>Chinese</span></div>
+    </a>
 
-- [paperrank](https://github.com/JakeFn123/paperrank)
-A paper search and evaluation agent for decomposing research questions, retrieving evidence, scoring relevance, and producing evidence-backed synthesis.
+  </div>
+</div>
 
-## Ongoing Themes
-
-- AI systems and agentic workflows
-- Research infrastructure and computational tooling
-- Structured documentation and specification workflows
-- Practical interfaces for technical reasoning and collaboration
-
-## What I Want This Page To Become
-
-- short case studies
-- links to demos and documentation
-- clearer research motivation behind each project
-- a better bridge between code artifacts and academic interests
+<div class="blk-v2">
+  <div class="sh-v2">Research Themes</div>
+  <div class="ri-grid">
+    <div class="ri-card c-blue">
+      <div class="ri-title">Agent Systems</div>
+      <p>Multi-agent planning with persistent memory, tool orchestration, and human-in-the-loop coordination. Applied to research workflows and engineering problem-solving.</p>
+    </div>
+    <div class="ri-card c-violet">
+      <div class="ri-title">Machine Learning</div>
+      <p>Class incremental learning, entity extraction with multi-task learning, and representation learning for structured industrial data.</p>
+    </div>
+    <div class="ri-card c-teal">
+      <div class="ri-title">Engineering Optimization</div>
+      <p>Intelligent scheduling algorithms for flexible job-shop problems; ML-driven materials property prediction for industrial steel.</p>
+    </div>
+  </div>
+</div>

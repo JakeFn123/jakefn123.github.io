@@ -10,7 +10,8 @@ layout: page
   <div class="hero-cta">
     <a class="btn-v2 btn-primary" href="mailto:2410202@tongji.edu">Email</a>
     <a class="btn-v2 btn-ghost" href="https://github.com/JakeFn123">GitHub</a>
-    <a class="btn-v2 btn-ghost" href="/awards/">Academic Profile</a>
+    <a class="btn-v2 btn-ghost" href="/awards/">Publications</a>
+    <a class="btn-v2 btn-ghost btn-cv" href="/assets/cv/ChaoyuFan_CV.pdf" target="_blank">CV (PDF)</a>
   </div>
   <div class="hero-chips">
     <span class="hero-chip">Gold Award · CICSIC</span>
@@ -152,6 +153,7 @@ layout: page
   <div class="cl-grid">
     <a class="cl-btn" href="mailto:2410202@tongji.edu">2410202@tongji.edu</a>
     <a class="cl-btn" href="https://github.com/JakeFn123">github.com/JakeFn123</a>
-    <a class="cl-btn" href="https://linkedin.com/in/chaoyu-fan">linkedin.com/in/chaoyu-fan</a>
+    <a class="cl-btn" href="https://linkedin.com/in/chaoyu-fan">LinkedIn</a>
+    <a class="cl-btn" href="/assets/cv/ChaoyuFan_CV.pdf" target="_blank">Download CV</a>
   </div>
 </div>

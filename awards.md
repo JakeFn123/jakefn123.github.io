@@ -4,37 +4,96 @@ permalink: /awards/index.html
 title: Academic Profile
 ---
 
-This page provides a concise academic summary.
+<div class="blk-v2">
+  <div class="sh-v2">Publications</div>
 
-## Current Status
+  <div class="pub-list">
 
-- PhD student in Electronic Information, Intelligent Science and Technology at Tongji University
-- Advised by Prof. Qi Kang
-- Research interests in agent systems, machine learning, and engineering optimization
+    <div class="pub-entry">
+      <div class="pub-badge pub-badge-conf">Conference</div>
+      <div class="pub-body">
+        <div class="pub-title">Class Incremental Learning via Feature Knowledge Prompts</div>
+        <div class="pub-authors">Jun Ma, <strong>Chaoyu Fan</strong>, Lihua Shi, Kefan Wang, Qi Kang</div>
+        <div class="pub-venue">IEEE Wireless and Optical Communications Conference (WOCC 2025)</div>
+        <div class="pub-links">
+          <a class="pub-link" href="https://www.wocc.org/wocc2025/technical-program/details.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
+    </div>
 
-## Public Academic Records
+    <div class="pub-entry">
+      <div class="pub-badge pub-badge-jour">Journal</div>
+      <div class="pub-body">
+        <div class="pub-title">The Entity Relationship Extraction Method Using Improved RoBERTa and Multi-Task Learning</div>
+        <div class="pub-authors">C. Fan et al.</div>
+        <div class="pub-venue">Computers, Materials &amp; Continua, vol. 77, no. 2, 2023</div>
+        <div class="pub-links">
+          <a class="pub-link" href="https://www.techscience.com/cmc/v77n2/54810/html" target="_blank">HTML</a>
+        </div>
+      </div>
+    </div>
 
-- A clearly attributable public Google Scholar profile for Chaoyu Fan has not yet been confirmed, so no Scholar link is shown here until it can be verified.
-- Publicly searchable records currently incorporated into this site include [Class Incremental Learning via Feature Knowledge Prompts](https://www.wocc.org/wocc2025/technical-program/details.pdf), listed in WOCC 2025 with authors Jun Ma, Chaoyu Fan, Lihua Shi, Kefan Wang, and Qi Kang.
-- Another indexed record under the name C. Fan is [The Entity Relationship Extraction Method Using Improved RoBERTa and Multi-Task Learning](https://www.techscience.com/cmc/v77n2/54810/html), published in Computers, Materials & Continua, 2023.
+  </div>
+</div>
 
-## Education
+<div class="blk-v2">
+  <div class="sh-v2">Education</div>
+  <div class="tl-v2">
+    <div class="tl-entry">
+      <span class="tl-yr">2023 –<br>present</span>
+      <div class="tl-body">
+        <strong>PhD, Electronic Information · Intelligent Science &amp; Technology</strong>
+        <span class="tl-inst">Tongji University, Shanghai</span>
+        <span class="tl-note">Advisor: Prof. Qi Kang · Focus: agent systems, ML, engineering optimization</span>
+      </div>
+    </div>
+    <div class="tl-entry">
+      <span class="tl-yr">2021 –<br>2023</span>
+      <div class="tl-body">
+        <strong>M.S., Electrical &amp; Computer Engineering</strong>
+        <span class="tl-inst">Columbia University, New York</span>
+      </div>
+    </div>
+    <div class="tl-entry">
+      <span class="tl-yr">2016 –<br>2020</span>
+      <div class="tl-body">
+        <strong>Honors B.S., Electronic Information Engineering</strong>
+        <span class="tl-inst">Purdue University, West Lafayette</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-- 2023: M.S. in Electrical and Computer Engineering, Columbia University
-- 2020: Honors B.S. in Electronic Information Engineering, Purdue University
+<div class="blk-v2">
+  <div class="sh-v2">Awards &amp; Recognition</div>
+  <div class="award-list">
+    <div class="award-entry">
+      <span class="award-icon">🥇</span>
+      <div class="award-body">
+        <div class="award-name">Gold Award · China International College Students' Innovation Competition (CICSIC)</div>
+        <div class="award-meta">National level · One of China's highest-prestige student innovation competitions</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Technical Orientation
-
-- Agent systems
-- Machine learning
-- Engineering optimization
-- Research-facing computational workflows
-
-## Industry Experience
-
-- Caterpillar China R&D Center, Engineer
-- Huawei, Engineer
-
-## Recognition
-
-- Gold Award, China International College Students' Innovation Competition
+<div class="blk-v2">
+  <div class="sh-v2">Industry Experience</div>
+  <div class="tl-v2">
+    <div class="tl-entry">
+      <span class="tl-yr">2022 –<br>2023</span>
+      <div class="tl-body">
+        <strong>Project Engineer Intern</strong>
+        <span class="tl-inst">Caterpillar China R&amp;D Center</span>
+        <span class="tl-note">Technical Supervisor, Lamination Department</span>
+      </div>
+    </div>
+    <div class="tl-entry">
+      <span class="tl-yr">Prior</span>
+      <div class="tl-body">
+        <strong>Engineer</strong>
+        <span class="tl-inst">Huawei</span>
+      </div>
+    </div>
+  </div>
+</div>
