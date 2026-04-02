@@ -65,7 +65,7 @@ description: Chaoyu Fan is a PhD researcher at Tongji University working on agen
     <div>
       <div class="ee-sub">Education</div>
       <div class="tl-v2">
-        <div class="tl-entry">
+        <div class="tl-entry tl-current">
           <span class="tl-yr">2023 –<br>present</span>
           <div class="tl-body">
             <strong>PhD, Electronic Information</strong>
@@ -93,18 +93,18 @@ description: Chaoyu Fan is a PhD researcher at Tongji University working on agen
       <div class="ee-sub">Industry</div>
       <div class="tl-v2">
         <div class="tl-entry">
+          <span class="tl-yr">Prior</span>
+          <div class="tl-body">
+            <strong>Engineer</strong>
+            <span class="tl-inst">Huawei</span>
+          </div>
+        </div>
+        <div class="tl-entry">
           <span class="tl-yr">2022 –<br>2023</span>
           <div class="tl-body">
             <strong>Project Engineer Intern</strong>
             <span class="tl-inst">Caterpillar China R&amp;D Center</span>
             <span class="tl-note">Technical Supervisor, Lamination Dept.</span>
-          </div>
-        </div>
-        <div class="tl-entry">
-          <span class="tl-yr">Prior</span>
-          <div class="tl-body">
-            <strong>Engineer</strong>
-            <span class="tl-inst">Huawei</span>
           </div>
         </div>
       </div>

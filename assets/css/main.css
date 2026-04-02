@@ -1094,8 +1094,8 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 .award-entry{background:#faf6f0 !important;}
 .facts-tbl{background:#faf6f0 !important;}
 
-/* ---- TIMELINE: pulsing dot on current position ---- */
-.tl-v2 .tl-entry:first-child .tl-body::before{
+/* ---- TIMELINE: pulsing dot on current position (PhD only) ---- */
+.tl-current .tl-body::before{
   background:#0d9488 !important;
   width:10px !important;height:10px !important;
   left:-6px !important;top:4px !important;

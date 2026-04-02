@@ -40,7 +40,7 @@ description: Publications, education, and awards of Chaoyu Fan — PhD researche
 <div class="blk-v2">
   <div class="sh-v2">Education</div>
   <div class="tl-v2">
-    <div class="tl-entry">
+    <div class="tl-entry tl-current">
       <span class="tl-yr">2023 –<br>present</span>
       <div class="tl-body">
         <strong>PhD, Electronic Information · Intelligent Science &amp; Technology</strong>
@@ -82,18 +82,18 @@ description: Publications, education, and awards of Chaoyu Fan — PhD researche
   <div class="sh-v2">Industry Experience</div>
   <div class="tl-v2">
     <div class="tl-entry">
+      <span class="tl-yr">Prior</span>
+      <div class="tl-body">
+        <strong>Engineer</strong>
+        <span class="tl-inst">Huawei</span>
+      </div>
+    </div>
+    <div class="tl-entry">
       <span class="tl-yr">2022 –<br>2023</span>
       <div class="tl-body">
         <strong>Project Engineer Intern</strong>
         <span class="tl-inst">Caterpillar China R&amp;D Center</span>
         <span class="tl-note">Technical Supervisor, Lamination Department</span>
-      </div>
-    </div>
-    <div class="tl-entry">
-      <span class="tl-yr">Prior</span>
-      <div class="tl-body">
-        <strong>Engineer</strong>
-        <span class="tl-inst">Huawei</span>
       </div>
     </div>
   </div>
