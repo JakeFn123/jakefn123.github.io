@@ -926,3 +926,53 @@ html{scroll-behavior:smooth;}
   .top-navigation ul{gap:.9rem;}
   .top-navigation li a{font-size:.62rem;}
 }
+
+/* =====================================================
+   ENHANCEMENTS — polish pass
+   ===================================================== */
+
+/* 1. Cohesive accent: teal section-header bar matches nav/hero */
+.sh-v2::before{background:#5eead4;}
+
+/* 2. Tablet 2-column breakpoint for grids */
+@media only screen and (max-width:62em) and (min-width:49em){
+  .ri-grid{grid-template-columns:1fr 1fr;}
+  .proj-grid{grid-template-columns:1fr 1fr;}
+  .ee-grid{grid-template-columns:1fr;}
+}
+
+/* 3. Card hover: subtle background tint on top of lift */
+.ri-card.c-blue:hover {background:rgba(37,99,235,.03);}
+.ri-card.c-violet:hover{background:rgba(124,58,237,.03);}
+.ri-card.c-teal:hover  {background:rgba(13,148,136,.03);}
+.proj-card:hover{background:#f8fbff;}
+
+/* 4. Fix nav active link: remove duplicate border-bottom transparent,
+      keep only the teal underline from .top-navigation-current */
+.top-navigation li a{border-bottom:none !important;}
+.top-navigation-current,.top-navigation-current:visited{
+  border-bottom:2px solid #5eead4 !important;
+}
+
+/* 5. JS-powered scroll reveal — elements start hidden once JS sets
+      .js-loaded on <html>; each el gets .is-visible when entering viewport.
+      Falls back to fully-visible if JS/IntersectionObserver is unavailable. */
+.js-loaded .blk-v2,
+.js-loaded .contact-v2{
+  opacity:0;
+  transform:translateY(12px);
+  transition:opacity .48s ease, transform .48s ease;
+  animation:none !important;
+}
+.js-loaded .hero-v2{
+  opacity:0;
+  transform:translateY(10px);
+  transition:opacity .38s ease, transform .38s ease;
+  animation:none !important;
+}
+.js-loaded .blk-v2.is-visible,
+.js-loaded .hero-v2.is-visible,
+.js-loaded .contact-v2.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
