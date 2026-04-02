@@ -11,7 +11,7 @@ description: Chaoyu Fan is a PhD researcher at Tongji University working on agen
   <div class="hero-cta">
     <a class="btn-v2 btn-primary" href="mailto:2410202@tongji.edu">Email</a>
     <a class="btn-v2 btn-ghost" href="https://github.com/JakeFn123">GitHub</a>
-    <a class="btn-v2 btn-ghost" href="/awards/">Publications</a>
+    <a class="btn-v2 btn-ghost" href="/awards/">Academic Profile</a>
     <a class="btn-v2 btn-ghost btn-cv" href="/assets/cv/ChaoyuFan_CV.pdf" target="_blank">CV (PDF)</a>
   </div>
   <div class="hero-chips">

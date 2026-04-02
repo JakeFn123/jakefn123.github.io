@@ -14,16 +14,16 @@ description: The interests and background of Chaoyu Fan — technology as craft,
   <div class="sh-v2">Interests</div>
   <div class="ri-grid">
     <div class="ri-card c-blue">
-      <div class="ri-title">Technology as Craft</div>
-      <p>I'm drawn to the part of engineering that feels like craft — shaping tools carefully, refining interfaces, and noticing the difference between something that merely works and something that feels right. This shows up in how I design software, write documentation, and approach research tooling.</p>
+      <div class="ri-title">Building Tools</div>
+      <p>I enjoy building things that make hard tasks easier — research assistants, workflow automation, small utilities that save hours. The satisfaction is less in the complexity and more in the moment when something clicks into place and actually gets used.</p>
     </div>
     <div class="ri-card c-violet">
-      <div class="ri-title">Writing &amp; Thinking</div>
-      <p>Writing is how I turn experience into understanding. I keep notes and drafts to clarify what I believe, what I'm learning, and what I want to build next. Slow thinking beats fast conclusions.</p>
+      <div class="ri-title">Reading &amp; Writing</div>
+      <p>I read broadly across computer science, philosophy of mind, and occasional history. Writing is how I work through ideas — I keep running notes on papers I read, things I'm building, and questions I don't yet have answers to.</p>
     </div>
     <div class="ri-card c-teal">
-      <div class="ri-title">Systems Thinking</div>
-      <p>I'm interested in systems that are both useful and elegant — software architecture, clean working processes, or a research methodology that scales without collapsing under its own complexity.</p>
+      <div class="ri-title">Design &amp; Craft</div>
+      <p>I pay attention to how things are made — software interfaces, written documentation, well-structured code. There's a kind of quality that shows up across all of these: clarity, care, and nothing wasted. I try to bring that to my own work.</p>
     </div>
   </div>
 </div>

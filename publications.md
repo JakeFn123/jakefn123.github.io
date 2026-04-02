@@ -45,19 +45,7 @@ description: Open-source research projects by Chaoyu Fan — multi-agent workflo
 </div>
 
 <div class="blk-v2">
-  <div class="sh-v2">Research Themes</div>
-  <div class="ri-grid">
-    <div class="ri-card c-blue">
-      <div class="ri-title">Agent Systems</div>
-      <p>Multi-agent planning with persistent memory, tool orchestration, and human-in-the-loop coordination. Applied to research workflows and engineering problem-solving.</p>
-    </div>
-    <div class="ri-card c-violet">
-      <div class="ri-title">Machine Learning</div>
-      <p>Class incremental learning, entity extraction with multi-task learning, and representation learning for structured industrial data.</p>
-    </div>
-    <div class="ri-card c-teal">
-      <div class="ri-title">Engineering Optimization</div>
-      <p>Intelligent scheduling algorithms for flexible job-shop problems; ML-driven materials property prediction for industrial steel.</p>
-    </div>
-  </div>
+  <div class="sh-v2">Approach</div>
+  <p style="color:#3d5060;line-height:1.75;max-width:680px;">These projects are built around a recurring pattern: take a research task that is currently slow, manual, or inconsistently done, and design a system that makes it faster, traceable, and repeatable. The goal is not automation for its own sake — it is giving researchers reliable tools so they can focus on the thinking that actually requires a human.</p>
+  <p style="color:#3d5060;line-height:1.75;max-width:680px;">All code is open source. Feedback and contributions welcome via GitHub.</p>
 </div>

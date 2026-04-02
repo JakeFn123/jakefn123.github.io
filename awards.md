@@ -26,7 +26,7 @@ description: Publications, education, and awards of Chaoyu Fan — PhD researche
       <div class="pub-badge pub-badge-jour">Journal</div>
       <div class="pub-body">
         <div class="pub-title">The Entity Relationship Extraction Method Using Improved RoBERTa and Multi-Task Learning</div>
-        <div class="pub-authors">C. Fan et al.</div>
+        <div class="pub-authors"><strong>Chaoyu Fan</strong> et al.</div>
         <div class="pub-venue">Computers, Materials &amp; Continua, vol. 77, no. 2, 2023</div>
         <div class="pub-links">
           <a class="pub-link" href="https://www.techscience.com/cmc/v77n2/54810/html" target="_blank">HTML</a>
