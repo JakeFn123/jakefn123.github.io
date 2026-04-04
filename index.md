@@ -8,7 +8,7 @@ description: Chaoyu Fan is a PhD researcher at Tongji University working on agen
   <span class="hero-eyebrow">PhD Researcher · Tongji University</span>
   <h1 class="hero-name">Chaoyu Fan <span class="hero-cn">范朝宇</span></h1>
   <p class="hero-sub">PhD researcher focused on intelligent agent systems, machine learning, and engineering optimization. Advised by Prof. Qi Kang; previously Columbia University, Purdue University, Caterpillar China R&amp;D, and Huawei.</p>
-  <p class="hero-micro"><code>Current Focus: Multi-agent planning + scheduling optimization (2026)</code></p>
+  <p class="hero-micro"><code>Current Focus: Multi-agent Orchestration and Agent Harness (2026)</code></p>
   <div class="hero-cta">
     <a class="btn-v2 btn-primary" href="mailto:2410202@tongji.edu">Email</a>
     <a class="btn-v2 btn-ghost" href="https://github.com/JakeFn123">GitHub</a>
