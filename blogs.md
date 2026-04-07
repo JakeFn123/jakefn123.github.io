@@ -28,3 +28,15 @@ description: Technical notes and essays by Chaoyu Fan on agent system design, re
   </div>
   <p style="color:#3d5060;margin-top:1.5rem;font-size:.9rem;">First posts coming soon. Subscribe via <a href="https://github.com/JakeFn123" style="color:#2e4f63;">GitHub</a> or check back here.</p>
 </div>
+
+
+<div class="blk-v2">
+  <div class="sh-v2">Latest Post</div>
+  <div class="ri-grid">
+    <div class="ri-card c-teal">
+      <div class="ri-title">Claude 风控“证据链”拆解</div>
+      <p>从设备指纹、遥测通道到行为节奏，整理 7 张图并做工程化技术解读。</p>
+      <p style="margin-top:.6rem;"><a href="/blogs/claude-risk-control/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
+    </div>
+  </div>
+</div>
