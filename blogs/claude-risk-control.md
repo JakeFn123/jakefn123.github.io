@@ -27,19 +27,23 @@ title: Claude 风控“证据链”拆解
   <div class="sh-v2">原图整理</div>
 </div>
 
-![封面图](/blogs/claude-risk-control.assets/img_1.webp)
 
-![图2](/blogs/claude-risk-control.assets/img_2.webp)
+<style>
+.dy-gallery{display:grid;gap:1rem;margin-top:.8rem;}
+.dy-fig{margin:0;display:flex;justify-content:center;}
+.dy-fig img{width:min(100%,460px);height:auto;display:block;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.08);}
+.dy-cap{margin-top:.35rem;text-align:center;color:#5f6b76;font-size:.86rem;}
+</style>
 
-![图3](/blogs/claude-risk-control.assets/img_3.webp)
-
-![图4](/blogs/claude-risk-control.assets/img_4.webp)
-
-![图5](/blogs/claude-risk-control.assets/img_5.webp)
-
-![图6](/blogs/claude-risk-control.assets/img_6.webp)
-
-![图7](/blogs/claude-risk-control.assets/img_7.webp)
+<div class="dy-gallery">
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_1.webp" alt="原图1" loading="lazy"></figure>
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_2.webp" alt="原图2" loading="lazy"></figure>
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_3.webp" alt="原图3" loading="lazy"></figure>
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_4.webp" alt="原图4" loading="lazy"></figure>
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_5.webp" alt="原图5" loading="lazy"></figure>
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_6.webp" alt="原图6" loading="lazy"></figure>
+  <figure class="dy-fig"><img src="/blogs/claude-risk-control.assets/img_7.webp" alt="原图7" loading="lazy"></figure>
+</div>
 
 ---
 
