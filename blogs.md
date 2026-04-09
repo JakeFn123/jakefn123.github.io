@@ -35,7 +35,7 @@ description: Technical notes and essays by Chaoyu Fan on agent system design, re
   <div class="ri-grid">
     <div class="ri-card c-blue">
       <div class="ri-title">初创公司股权分配：把“出资”和“出力”拆开算</div>
-      <p>从一张抖音图文出发，扩展成适用于三人合伙与初创团队的股权设计笔记。</p>
+      <p>从三人合伙的真实场景出发，聊清楚创业初期怎么分股更稳，并附上几份能直接改的协议模板骨架。</p>
       <p style="margin-top:.6rem;"><a href="/blogs/startup-equity-split/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
     </div>
     <div class="ri-card c-teal">
