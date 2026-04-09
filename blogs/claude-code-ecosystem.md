@@ -40,7 +40,7 @@ description: 从一条抖音图文出发，梳理这轮 Claude Code 热门项目
 .cc-callout{background:#f6fbfd;border-left:4px solid #4a7a8c;padding:1rem 1rem .9rem;border-radius:10px;margin:1rem 0}
 .cc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1rem 0 1.2rem}
 .cc-card{background:#fbfcfe;border:1px solid #dce5ec;border-radius:10px;padding:1rem 1rem .9rem}
-.cc-card h3{margin:.1rem 0 .45rem;font-size:1rem;color:#304552}
+.cc-card h3{margin:.1rem 0 .45rem;font-size:1rem;line-height:1.45;color:#304552}
 .cc-card p{margin:0;color:#556674;font-size:.92rem;line-height:1.72}
 .cc-table{width:100%;border-collapse:collapse;margin:1rem 0 1.2rem;font-size:.96rem}
 .cc-table th,.cc-table td{border-bottom:1px solid #dde4ea;padding:.75rem .55rem;text-align:left;vertical-align:top}
@@ -51,6 +51,7 @@ description: 从一条抖音图文出发，梳理这轮 Claude Code 热门项目
 .cc-source-grid figcaption{margin-top:.45rem;color:#5f6b76;font-size:.86rem;line-height:1.65}
 .cc-details{margin:1rem 0 1.2rem;padding:1rem;border:1px solid #dce5ec;border-radius:10px;background:#fbfcfe}
 .cc-details summary{cursor:pointer;color:#2f4756;font-weight:600}
+.cc-details[open] summary{margin-bottom:.85rem}
 .cc-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;margin-top:1rem}
 .cc-gallery figure{margin:0}
 .cc-gallery img{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
@@ -85,19 +86,44 @@ description: 从一条抖音图文出发，梳理这轮 Claude Code 热门项目
 原图里重点提了 `Everything Claude Code`、`SuperPowers`、`Claude How To`、`Oh My Claude Code` 这些项目。  
 如果把它们分开看，只是“这周热榜推荐”；但如果把它们放在一起看，结构就出来了。
 
-| 层级 | 代表项目 | 它在解决什么 |
-|---|---|---|
-| 学习层 | `Claude How To` | 帮新人理解 Claude Code 怎么上手、怎么走通基本工作流 |
-| 配置层 | `Everything Claude Code` | 把 agents、rules、hooks、MCP 之类的配置集合起来 |
-| 能力层 | `SuperPowers` | 把高频开发动作封装成可安装、可组合的 skill |
-| 编排层 | `Oh My Claude Code` | 把“一个 AI 帮你写”推进到“多个 AI 分工协作” |
+<table class="cc-table">
+  <thead>
+    <tr>
+      <th>层级</th>
+      <th>代表项目</th>
+      <th>它在解决什么</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>学习层</td>
+      <td><code>Claude How To</code></td>
+      <td>帮新人理解 Claude Code 怎么上手、怎么走通基本工作流</td>
+    </tr>
+    <tr>
+      <td>配置层</td>
+      <td><code>Everything Claude Code</code></td>
+      <td>把 agents、rules、hooks、MCP 之类的配置集合起来</td>
+    </tr>
+    <tr>
+      <td>能力层</td>
+      <td><code>SuperPowers</code></td>
+      <td>把高频开发动作封装成可安装、可组合的 skill</td>
+    </tr>
+    <tr>
+      <td>编排层</td>
+      <td><code>Oh My Claude Code</code></td>
+      <td>把“一个 AI 帮你写”推进到“多个 AI 分工协作”</td>
+    </tr>
+  </tbody>
+</table>
 
 如果只有教程火，说明大家还在围观。  
 如果只有配置包火，说明还停留在民间经验阶段。  
 但当 skill 和 orchestration 也一起往上走，说明开发者已经不满足于“有个聊天框能写代码”，而是在把它往系统化生产工具上推。
 
 <div class="cc-callout">
-我觉得这才是这波热度真正重要的地方：Claude Code 被社区使用的方式，已经开始从“工具消费”走向“工作流搭建”。
+  <p>我觉得这才是这波热度真正重要的地方：Claude Code 被社区使用的方式，已经开始从“工具消费”走向“工作流搭建”。</p>
 </div>
 
 ---
