@@ -302,7 +302,12 @@
     displayOilPrices(data) {
       if (!data || data.length === 0) return;
 
-      const beijingPrice = data.find(p => p.province === '北京') || data[0];
+      // 根据当前城市查找油价，如果没有则使用上海或第一个
+      let priceData = data.find(p => p.province === this.currentCity);
+      if (!priceData) {
+        priceData = data.find(p => p.province === '上海') || data[0];
+      }
+      
       const oilSection = this.container.querySelector('#oil-section');
       const oilPrices = this.container.querySelector('#oil-prices');
 
@@ -310,19 +315,19 @@
         oilPrices.innerHTML = `
           <div class="widget-oil-item">
             <span class="widget-oil-type">92号</span>
-            <span class="widget-oil-price">¥${beijingPrice.o92 || '--'}</span>
+            <span class="widget-oil-price">¥${priceData.o92 || '--'}</span>
           </div>
           <div class="widget-oil-item">
             <span class="widget-oil-type">95号</span>
-            <span class="widget-oil-price">¥${beijingPrice.o95 || '--'}</span>
+            <span class="widget-oil-price">¥${priceData.o95 || '--'}</span>
           </div>
           <div class="widget-oil-item">
             <span class="widget-oil-type">98号</span>
-            <span class="widget-oil-price">¥${beijingPrice.o98 || '--'}</span>
+            <span class="widget-oil-price">¥${priceData.o98 || '--'}</span>
           </div>
           <div class="widget-oil-item">
             <span class="widget-oil-type">0号</span>
-            <span class="widget-oil-price">¥${beijingPrice.o0 || '--'}</span>
+            <span class="widget-oil-price">¥${priceData.o0 || '--'}</span>
           </div>
         `;
         oilSection.style.display = 'block';
