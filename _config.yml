@@ -21,16 +21,18 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: Home
     url: /
-  - title: Research
-    url: /teams/
-  - title: Projects
-    url: /publications/
-  - title: Academic Profile
-    url: /awards/
-  - title: Interests
-    url: /hobbies/
   - title: Notes
     url: /blogs/
+
+  # Hidden for now. Uncomment to restore these items to the top navigation.
+  # - title: Research
+  #   url: /teams/
+  # - title: Projects
+  #   url: /publications/
+  # - title: Academic Profile
+  #   url: /awards/
+  # - title: Interests
+  #   url: /hobbies/
 
 timezone: China/Beijing
 future: true
