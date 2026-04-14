@@ -33,6 +33,11 @@ description: Technical notes and essays by Chaoyu Fan on agent system design, re
 <div class="blk-v2">
   <div class="sh-v2">Latest Post</div>
   <div class="ri-grid">
+    <div class="ri-card c-blue">
+      <div class="ri-title">OpenClaw 办公智能体全景拆解</div>
+      <p>基于 19 张演示截图，拆解它到底是在卖办公问答助手，还是一套真正会执行任务的工作流 agent。</p>
+      <p style="margin-top:.6rem;"><a href="/blogs/openclaw-office-agents/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
+    </div>
     <div class="ri-card c-violet">
       <div class="ri-title">Terminal-Bench 2.0 完全导读</div>
       <p>从评分方式、89 个任务分类到 agent 提分路径，系统拆解这套 benchmark 到底在测什么，以及该怎么用它评估自己的 coding agent。</p>
@@ -47,11 +52,6 @@ description: Technical notes and essays by Chaoyu Fan on agent system design, re
       <div class="ri-title">初创公司股权分配：把“出资”和“出力”拆开算</div>
       <p>从三人合伙的真实场景出发，聊清楚创业初期怎么分股更稳，并附上几份能直接改的协议模板骨架。</p>
       <p style="margin-top:.6rem;"><a href="/blogs/startup-equity-split/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
-    </div>
-    <div class="ri-card c-blue">
-      <div class="ri-title">Claude 风控“证据链”拆解</div>
-      <p>从设备指纹、遥测通道到行为节奏，整理 7 张图并做工程化技术解读。</p>
-      <p style="margin-top:.6rem;"><a href="/blogs/claude-risk-control/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
     </div>
   </div>
 </div>
