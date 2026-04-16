@@ -41,10 +41,7 @@ description: 基于 tbench.ai、Harbor 与 Hugging Face 官方说明，纠正上
 .tb-code pre{margin:0;white-space:pre-wrap;word-break:break-word}
 .tb-mini{font-size:.9rem;color:#61707d}
 .tb-source li{margin:.45rem 0;line-height:1.72;color:#42586a}
-.tb-task-group{margin:1.1rem 0 1.35rem}
-.tb-task-group h4{margin:0 0 .7rem;color:#2f4756}
-.tb-task-group ul{margin:.3rem 0 0 1.1rem}
-.tb-task-group li{margin:.34rem 0;line-height:1.72;color:#42586a}
+.tb-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
 @media (max-width: 720px){
   .tb-card-grid{grid-template-columns:1fr}
 }
@@ -74,191 +71,645 @@ description: 基于 tbench.ai、Harbor 与 Hugging Face 官方说明，纠正上
 
 <div class="blk-v2">
   <div class="sh-v2">89 个官方任务清单（中文对照）</div>
-  <p class="tb-mini">下面这份清单是我在 2026/04/17 直接从 <a href="https://www.tbench.ai/benchmarks/terminal-bench-2">官网任务页</a>抓下来的当前显示结果。英文 <code>slug</code>、官方 <code>category</code> 和 <code>difficulty</code> 保持官网原样；中文名称是我做的直译 / 意译，仅用于帮助阅读。</p>
+  <p class="tb-mini">下面这份表格是我在 2026/04/17 直接从 <a href="https://www.tbench.ai/benchmarks/terminal-bench-2">官网任务页</a>抓取并核对的当前 89 个任务。任务顺序、官方分类和难度以官网为准；中文名和任务内容是基于官网任务卡信息做的中文整理，方便快速浏览。</p>
 
-  <div class="tb-task-group">
-    <h4>Data Processing（4）</h4>
-    <ul>
-      <li><code>financial-document-processor</code>：金融文档处理器（官方类别：data-processing；难度：medium）</li>
-      <li><code>log-summary-date-ranges</code>：日志摘要日期区间提取（官方类别：data-processing；难度：medium）</li>
-      <li><code>multi-source-data-merger</code>：多源数据合并（官方类别：data-processing；难度：medium）</li>
-      <li><code>regex-log</code>：日志正则提取（官方类别：data-processing；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Data Querying（1）</h4>
-    <ul>
-      <li><code>sparql-university</code>：大学数据 SPARQL 查询（官方类别：data-querying；难度：hard）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Data Science（8）</h4>
-    <ul>
-      <li><code>hf-model-inference</code>：Hugging Face 模型推理服务（官方类别：data-science；难度：medium）</li>
-      <li><code>mcmc-sampling-stan</code>：Stan 的 MCMC 采样（官方类别：data-science；难度：hard）</li>
-      <li><code>mteb-leaderboard</code>：MTEB 榜单处理（官方类别：data-science；难度：medium）</li>
-      <li><code>mteb-retrieve</code>：MTEB 检索任务（官方类别：data-science；难度：medium）</li>
-      <li><code>query-optimize</code>：查询优化（官方类别：data-science；难度：medium）</li>
-      <li><code>reshard-c4-data</code>：重切分 C4 数据（官方类别：data-science；难度：medium）</li>
-      <li><code>rstan-to-pystan</code>：RStan 迁移到 PyStan（官方类别：data-science；难度：medium）</li>
-      <li><code>sam-cell-seg</code>：SAM 细胞分割（官方类别：data-science；难度：hard）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Debugging（5）</h4>
-    <ul>
-      <li><code>build-cython-ext</code>：构建 Cython 扩展（官方类别：debugging；难度：medium）</li>
-      <li><code>custom-memory-heap-crash</code>：自定义内存堆崩溃排查（官方类别：debugging；难度：medium）</li>
-      <li><code>merge-diff-arc-agi-task</code>：合并 diff 的 ARC-AGI 任务（官方类别：debugging；难度：medium）</li>
-      <li><code>overfull-hbox</code>：修复 Overfull hbox（官方类别：debugging；难度：easy）</li>
-      <li><code>sqlite-db-truncate</code>：截断损坏的 SQLite 数据库恢复（官方类别：debugging；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>File Operations（5）</h4>
-    <ul>
-      <li><code>db-wal-recovery</code>：数据库 WAL 恢复（官方类别：file-operations；难度：medium）</li>
-      <li><code>extract-elf</code>：提取 ELF 内容（官方类别：file-operations；难度：medium）</li>
-      <li><code>extract-moves-from-video</code>：从视频中提取动作序列（官方类别：file-operations；难度：hard）</li>
-      <li><code>gcode-to-text</code>：G-code 转文本（官方类别：file-operations；难度：medium）</li>
-      <li><code>large-scale-text-editing</code>：大规模文本编辑（官方类别：file-operations；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Games（1）</h4>
-    <ul>
-      <li><code>chess-best-move</code>：国际象棋最佳着法（官方类别：games；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Machine Learning（3）</h4>
-    <ul>
-      <li><code>caffe-cifar-10</code>：Caffe 训练 CIFAR-10（官方类别：machine-learning；难度：medium）</li>
-      <li><code>distribution-search</code>：分布搜索（官方类别：machine-learning；难度：medium）</li>
-      <li><code>llm-inference-batching-scheduler</code>：LLM 推理批处理调度器（官方类别：machine-learning；难度：hard）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Mathematics（4）</h4>
-    <ul>
-      <li><code>feal-differential-cryptanalysis</code>：FEAL 差分密码分析（官方类别：mathematics；难度：hard）</li>
-      <li><code>feal-linear-cryptanalysis</code>：FEAL 线性密码分析（官方类别：mathematics；难度：hard）</li>
-      <li><code>largest-eigenval</code>：最大特征值计算（官方类别：mathematics；难度：medium）</li>
-      <li><code>model-extraction-relu-logits</code>：ReLU logits 模型提取（官方类别：mathematics；难度：hard）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Model Training（4）</h4>
-    <ul>
-      <li><code>count-dataset-tokens</code>：统计数据集 token 数（官方类别：model-training；难度：medium）</li>
-      <li><code>pytorch-model-cli</code>：PyTorch 模型命令行接口（官方类别：model-training；难度：medium）</li>
-      <li><code>pytorch-model-recovery</code>：PyTorch 模型恢复（官方类别：model-training；难度：medium）</li>
-      <li><code>train-fasttext</code>：训练 FastText 模型（官方类别：model-training；难度：hard）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Optimization（1）</h4>
-    <ul>
-      <li><code>portfolio-optimization</code>：投资组合优化（官方类别：optimization；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Personal Assistant（1）</h4>
-    <ul>
-      <li><code>constraints-scheduling</code>：约束式日程安排（官方类别：personal-assistant；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Scientific Computing（8）</h4>
-    <ul>
-      <li><code>adaptive-rejection-sampler</code>：自适应拒绝采样器（官方类别：scientific-computing；难度：medium）</li>
-      <li><code>bn-fit-modify</code>：贝叶斯网络拟合与修改（官方类别：scientific-computing；难度：hard）</li>
-      <li><code>dna-assembly</code>：DNA 组装（官方类别：scientific-computing；难度：hard）</li>
-      <li><code>dna-insert</code>：DNA 插入（官方类别：scientific-computing；难度：medium）</li>
-      <li><code>modernize-scientific-stack</code>：现代化科学计算栈（官方类别：scientific-computing；难度：medium）</li>
-      <li><code>protein-assembly</code>：蛋白质组装（官方类别：scientific-computing；难度：hard）</li>
-      <li><code>raman-fitting</code>：拉曼光谱拟合（官方类别：scientific-computing；难度：medium）</li>
-      <li><code>tune-mjcf</code>：调优 MJCF 模型（官方类别：scientific-computing；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Security（8）</h4>
-    <ul>
-      <li><code>break-filter-js-from-html</code>：突破 HTML 中的 JS 过滤（官方类别：security；难度：medium）</li>
-      <li><code>crack-7z-hash</code>：破解 7z 哈希（官方类别：security；难度：medium）</li>
-      <li><code>filter-js-from-html</code>：过滤 HTML 中的 JS（官方类别：security；难度：medium）</li>
-      <li><code>fix-code-vulnerability</code>：修复代码漏洞（官方类别：security；难度：hard）</li>
-      <li><code>openssl-selfsigned-cert</code>：生成 OpenSSL 自签证书（官方类别：security；难度：medium）</li>
-      <li><code>password-recovery</code>：密码恢复（官方类别：security；难度：hard）</li>
-      <li><code>sanitize-git-repo</code>：清洗 Git 仓库敏感信息（官方类别：security；难度：medium）</li>
-      <li><code>vulnerable-secret</code>：提取脆弱程序中的 secret（官方类别：security；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Software Engineering（26）</h4>
-    <ul>
-      <li><code>build-pmars</code>：构建 pMARS（官方类别：software-engineering；难度：medium）</li>
-      <li><code>build-pov-ray</code>：构建 POV-Ray（官方类别：software-engineering；难度：medium）</li>
-      <li><code>cancel-async-tasks</code>：取消异步任务（官方类别：software-engineering；难度：hard）</li>
-      <li><code>circuit-fibsqrt</code>：电路实现 fibsqrt（官方类别：software-engineering；难度：hard）</li>
-      <li><code>cobol-modernization</code>：COBOL 现代化改造（官方类别：software-engineering；难度：easy）</li>
-      <li><code>code-from-image</code>：从图像还原代码（官方类别：software-engineering；难度：medium）</li>
-      <li><code>fix-git</code>：修复 Git 问题（官方类别：software-engineering；难度：easy）</li>
-      <li><code>fix-ocaml-gc</code>：修复 OCaml 垃圾回收（官方类别：software-engineering；难度：hard）</li>
-      <li><code>git-leak-recovery</code>：Git 泄露恢复（官方类别：software-engineering；难度：medium）</li>
-      <li><code>gpt2-codegolf</code>：GPT-2 代码高尔夫（官方类别：software-engineering；难度：hard）</li>
-      <li><code>headless-terminal</code>：无头终端模式（官方类别：software-engineering；难度：medium）</li>
-      <li><code>kv-store-grpc</code>：gRPC 键值存储（官方类别：software-engineering；难度：medium）</li>
-      <li><code>make-doom-for-mips</code>：让 Doom 跑在 MIPS 上（官方类别：software-engineering；难度：hard）</li>
-      <li><code>make-mips-interpreter</code>：编写 MIPS 解释器（官方类别：software-engineering；难度：hard）</li>
-      <li><code>path-tracing</code>：路径追踪实现（官方类别：software-engineering；难度：hard）</li>
-      <li><code>path-tracing-reverse</code>：逆向路径追踪（官方类别：software-engineering；难度：hard）</li>
-      <li><code>polyglot-c-py</code>：C / Python 多语程序（官方类别：software-engineering；难度：medium）</li>
-      <li><code>polyglot-rust-c</code>：Rust / C 多语程序（官方类别：software-engineering；难度：hard）</li>
-      <li><code>prove-plus-comm</code>：证明加法交换律（官方类别：software-engineering；难度：easy）</li>
-      <li><code>pypi-server</code>：搭建 PyPI 服务（官方类别：software-engineering；难度：medium）</li>
-      <li><code>regex-chess</code>：正则国际象棋（官方类别：software-engineering；难度：hard）</li>
-      <li><code>schemelike-metacircular-eval</code>：类 Scheme 元循环求值器（官方类别：software-engineering；难度：medium）</li>
-      <li><code>torch-pipeline-parallelism</code>：Torch 流水线并行（官方类别：software-engineering；难度：hard）</li>
-      <li><code>torch-tensor-parallelism</code>：Torch 张量并行（官方类别：software-engineering；难度：hard）</li>
-      <li><code>winning-avg-corewars</code>：平均胜率更高的 Corewars（官方类别：software-engineering；难度：medium）</li>
-      <li><code>write-compressor</code>：编写压缩器（官方类别：software-engineering；难度：hard）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>System Administration（9）</h4>
-    <ul>
-      <li><code>compile-compcert</code>：编译 CompCert（官方类别：system-administration；难度：medium）</li>
-      <li><code>configure-git-webserver</code>：配置 Git Web 服务器（官方类别：system-administration；难度：hard）</li>
-      <li><code>git-multibranch</code>：多分支 Git 管理（官方类别：system-administration；难度：medium）</li>
-      <li><code>install-windows-3.11</code>：安装 Windows 3.11（官方类别：system-administration；难度：hard）</li>
-      <li><code>mailman</code>：配置 Mailman（官方类别：system-administration；难度：medium）</li>
-      <li><code>nginx-request-logging</code>：Nginx 请求日志配置（官方类别：system-administration；难度：medium）</li>
-      <li><code>qemu-alpine-ssh</code>：QEMU Alpine SSH（官方类别：system-administration；难度：medium）</li>
-      <li><code>qemu-startup</code>：QEMU 启动问题（官方类别：system-administration；难度：medium）</li>
-      <li><code>sqlite-with-gcov</code>：带 gcov 的 SQLite 构建（官方类别：system-administration；难度：medium）</li>
-    </ul>
-  </div>
-
-  <div class="tb-task-group">
-    <h4>Video Processing（1）</h4>
-    <ul>
-      <li><code>video-processing</code>：视频处理（官方类别：video-processing；难度：hard）</li>
-    </ul>
+  <div class="tb-table-wrap">
+    <table class="tb-table">
+      <thead>
+        <tr>
+          <th>任务分类</th>
+          <th>任务名字</th>
+          <th>中文名</th>
+          <th>任务内容</th>
+          <th>难易程度</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>adaptive-rejection-sampler</code></td>
+          <td>自适应拒绝采样器</td>
+          <td>用 R 实现自适应拒绝采样器，校验输入、检测对数凹性并附测试</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>bn-fit-modify</code></td>
+          <td>贝叶斯网络拟合与修改</td>
+          <td>从样本恢复贝叶斯网络 DAG，拟合后对 Y 做干预并重新采样</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>break-filter-js-from-html</code></td>
+          <td>突破 HTML 中的 JS 过滤</td>
+          <td>构造可绕过现有 HTML 过滤脚本的页面，使其自动触发 alert</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>调试<br><code>debugging</code></td>
+          <td><code>build-cython-ext</code></td>
+          <td>构建 Cython 扩展</td>
+          <td>修复 pyknotid 与 Numpy 2.3 兼容问题并编译安装 Cython 扩展</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>build-pmars</code></td>
+          <td>构建 pMARS</td>
+          <td>从 Debian 源构建无 X11 依赖的 pMARS 并安装</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>build-pov-ray</code></td>
+          <td>构建 POV-Ray</td>
+          <td>下载并编译 POV-Ray 2.2，使其能渲染给定场景</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>机器学习<br><code>machine-learning</code></td>
+          <td><code>caffe-cifar-10</code></td>
+          <td>Caffe 训练 CIFAR-10</td>
+          <td>安装 CPU 版 Caffe，并训练 CIFAR-10 模型 500 轮</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>cancel-async-tasks</code></td>
+          <td>取消异步任务</td>
+          <td>实现支持并发上限且在中断时仍能执行清理的异步任务调度函数</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>游戏<br><code>games</code></td>
+          <td><code>chess-best-move</code></td>
+          <td>国际象棋最佳着法</td>
+          <td>从棋盘图片判断白方最佳着法并写入结果</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>circuit-fibsqrt</code></td>
+          <td>电路实现 fibsqrt</td>
+          <td>编写逻辑门电路文件，使模拟器输出 fib(isqrt(N))</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>cobol-modernization</code></td>
+          <td>COBOL 现代化改造</td>
+          <td>修复并现代化 COBOL 程序，使其正确处理输入并更新数据文件</td>
+          <td>简单<br><code>easy</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>code-from-image</code></td>
+          <td>从图像还原代码</td>
+          <td>根据图片中的伪代码实现逻辑，并输出最终结果</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>compile-compcert</code></td>
+          <td>编译 CompCert</td>
+          <td>在当前系统上从源码构建并验证 CompCert 3.13.1 编译器</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>configure-git-webserver</code></td>
+          <td>配置 Git Web 服务器</td>
+          <td>配置 SSH Git 服务器，并将推送内容自动发布为网页</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>个人助理<br><code>personal-assistant</code></td>
+          <td><code>constraints-scheduling</code></td>
+          <td>约束式日程安排</td>
+          <td>根据多人可用时间与已有冲突，安排满足约束的一小时会议</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>模型训练<br><code>model-training</code></td>
+          <td><code>count-dataset-tokens</code></td>
+          <td>统计数据集 token 数</td>
+          <td>按 README 正确统计指定 Hugging Face 数据集 science 域的 deepseek token 数</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>crack-7z-hash</code></td>
+          <td>破解 7z 哈希</td>
+          <td>破解压缩包并恢复 secret_file.txt 中的单词</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>调试<br><code>debugging</code></td>
+          <td><code>custom-memory-heap-crash</code></td>
+          <td>自定义内存堆崩溃排查</td>
+          <td>只修改 user.cpp，修复 RELEASE 模式崩溃问题</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>文件操作<br><code>file-operations</code></td>
+          <td><code>db-wal-recovery</code></td>
+          <td>数据库 WAL 恢复</td>
+          <td>从损坏或异常的 SQLite WAL 中恢复完整数据库记录</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>机器学习<br><code>machine-learning</code></td>
+          <td><code>distribution-search</code></td>
+          <td>分布搜索</td>
+          <td>寻找最符合目标 LLM 置信度指标的概率分布</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>dna-assembly</code></td>
+          <td>DNA 组装</td>
+          <td>设计含 egfp/FLAG 插入的 DNA 组装方案与引物</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>dna-insert</code></td>
+          <td>DNA 插入</td>
+          <td>设计引物，将输入质粒定点改造成目标质粒</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>文件操作<br><code>file-operations</code></td>
+          <td><code>extract-elf</code></td>
+          <td>提取 ELF 内容</td>
+          <td>编写 Node 程序从 ELF 二进制中提取指定内存值并输出 JSON</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>文件操作<br><code>file-operations</code></td>
+          <td><code>extract-moves-from-video</code></td>
+          <td>从视频中提取动作序列</td>
+          <td>下载 Zork 视频，转录并提取全部输入指令</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>数学<br><code>mathematics</code></td>
+          <td><code>feal-differential-cryptanalysis</code></td>
+          <td>FEAL 差分密码分析</td>
+          <td>对给定 FEAL-like 实现做选择明文攻击，恢复 key[5]</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>数学<br><code>mathematics</code></td>
+          <td><code>feal-linear-cryptanalysis</code></td>
+          <td>FEAL 线性密码分析</td>
+          <td>用线性密码分析从明密文对中恢复轮密钥</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>filter-js-from-html</code></td>
+          <td>过滤 HTML 中的 JS</td>
+          <td>编写 Python 过滤器移除 HTML 中的危险 JavaScript，并尽量保留安全内容</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据处理<br><code>data-processing</code></td>
+          <td><code>financial-document-processor</code></td>
+          <td>金融文档处理器</td>
+          <td>对混合 PDF/JPG 文档做发票分类、字段抽取和结构化输出</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>fix-code-vulnerability</code></td>
+          <td>修复代码漏洞</td>
+          <td>按 CWE 定位并修复仓库中的安全漏洞</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>fix-git</code></td>
+          <td>修复 Git 问题</td>
+          <td>找回切回 master 后丢失的个人站点改动，并合并回主分支</td>
+          <td>简单<br><code>easy</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>fix-ocaml-gc</code></td>
+          <td>修复 OCaml 垃圾回收</td>
+          <td>修复改造后的 OCaml GC，使编译器和运行时恢复正确</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>文件操作<br><code>file-operations</code></td>
+          <td><code>gcode-to-text</code></td>
+          <td>G-code 转文本</td>
+          <td>从 G-code 打印路径判断最终印出的文字内容</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>git-leak-recovery</code></td>
+          <td>Git 泄露恢复</td>
+          <td>找回被重写历史删除的 secret，并彻底清理 Git 泄漏</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>git-multibranch</code></td>
+          <td>多分支 Git 管理</td>
+          <td>通过 SSH 搭建支持 main/dev 双分支部署的 Git 服务器</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>gpt2-codegolf</code></td>
+          <td>GPT-2 代码高尔夫</td>
+          <td>写一个无依赖 C 程序，用 TF ckpt 权重做 GPT-2 贪心采样</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>headless-terminal</code></td>
+          <td>无头终端模式</td>
+          <td>实现无头终端接口，支持按键、屏幕状态和进程交互</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>hf-model-inference</code></td>
+          <td>Hugging Face 模型推理服务</td>
+          <td>本地部署 Hugging Face 情感分类模型推理服务</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>install-windows-3.11</code></td>
+          <td>安装 Windows 3.11</td>
+          <td>在 QEMU 中启动 Windows 3.11，并按要求配置 VNC</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>kv-store-grpc</code></td>
+          <td>gRPC 键值存储</td>
+          <td>用 Python + gRPC 实现字符串键、数值值的 KV 服务</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>文件操作<br><code>file-operations</code></td>
+          <td><code>large-scale-text-editing</code></td>
+          <td>大规模文本编辑</td>
+          <td>用高击键效率的 Vim 宏批量把百万行 CSV 转成目标格式</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数学<br><code>mathematics</code></td>
+          <td><code>largest-eigenval</code></td>
+          <td>最大特征值计算</td>
+          <td>完成函数以求矩阵模最大的特征值和对应特征向量</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>机器学习<br><code>machine-learning</code></td>
+          <td><code>llm-inference-batching-scheduler</code></td>
+          <td>LLM 推理批处理调度器</td>
+          <td>为静态图 LLM 推理系统实现 shape-aware 批处理调度器</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>数据处理<br><code>data-processing</code></td>
+          <td><code>log-summary-date-ranges</code></td>
+          <td>日志摘要日期区间提取</td>
+          <td>汇总多份日志的日期范围、来源统计与时间覆盖情况</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>mailman</code></td>
+          <td>配置 Mailman</td>
+          <td>启动 Mailman3 + Postfix 邮件列表服务并满足基础邮件流要求</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>make-doom-for-mips</code></td>
+          <td>让 Doom 跑在 MIPS 上</td>
+          <td>用给定源码和 vm.js 让 Doom 在 MIPS 环境下跑起来并输出帧图</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>make-mips-interpreter</code></td>
+          <td>编写 MIPS 解释器</td>
+          <td>实现 MIPS 解释器，使给定 doomgeneric_mips ELF 可运行</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>mcmc-sampling-stan</code></td>
+          <td>Stan 的 MCMC 采样</td>
+          <td>安装 RStan 并对层次贝叶斯模型做采样，估计后验均值</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>调试<br><code>debugging</code></td>
+          <td><code>merge-diff-arc-agi-task</code></td>
+          <td>合并 diff 的 ARC-AGI 任务</td>
+          <td>从两个 bundle 还原分支并合并 diff，完成 ARC-AGI 仓库任务</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数学<br><code>mathematics</code></td>
+          <td><code>model-extraction-relu-logits</code></td>
+          <td>ReLU logits 模型提取</td>
+          <td>通过查询一层 ReLU 网络，恢复模型参数或等价表示</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>modernize-scientific-stack</code></td>
+          <td>现代化科学计算栈</td>
+          <td>将旧的 Python 2.7 气候分析代码迁移到现代 Python</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>mteb-leaderboard</code></td>
+          <td>MTEB 榜单处理</td>
+          <td>基于 MTEB 榜单为斯堪的纳维亚文本选择最佳嵌入模型</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>mteb-retrieve</code></td>
+          <td>MTEB 检索任务</td>
+          <td>用指定 embedding 模型检索与查询第五相似的文档</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据处理<br><code>data-processing</code></td>
+          <td><code>multi-source-data-merger</code></td>
+          <td>多源数据合并</td>
+          <td>融合三种格式的用户数据源，并按优先级去重对齐字段</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>nginx-request-logging</code></td>
+          <td>Nginx 请求日志配置</td>
+          <td>配置 Nginx 监听、静态服务与高级请求日志格式</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>openssl-selfsigned-cert</code></td>
+          <td>生成 OpenSSL 自签证书</td>
+          <td>用 OpenSSL 生成符合要求的自签 TLS 证书与目录结构</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>调试<br><code>debugging</code></td>
+          <td><code>overfull-hbox</code></td>
+          <td>修复 Overfull hbox</td>
+          <td>修复 LaTeX 文档的 overfull hbox 警告并成功编译</td>
+          <td>简单<br><code>easy</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>password-recovery</code></td>
+          <td>密码恢复</td>
+          <td>在 /app 中做数字取证，找回被误删的 launchcode.txt 密码</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>path-tracing</code></td>
+          <td>路径追踪实现</td>
+          <td>编写 C 程序生成尽可能接近参考图的渲染图像</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>path-tracing-reverse</code></td>
+          <td>逆向路径追踪</td>
+          <td>逆向已编译程序，并用 C 复现完全相同的行为</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>polyglot-c-py</code></td>
+          <td>C / Python 多语程序</td>
+          <td>写一个单文件程序，可同时作为 Python 和 C 执行</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>polyglot-rust-c</code></td>
+          <td>Rust / C 多语程序</td>
+          <td>写一个单文件程序，可同时作为 Rust 和 C++ 执行</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>优化<br><code>optimization</code></td>
+          <td><code>portfolio-optimization</code></td>
+          <td>投资组合优化</td>
+          <td>结合 C 与 Python 优化投资组合风险收益计算性能</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>protein-assembly</code></td>
+          <td>蛋白质组装</td>
+          <td>为 DHFR FRET 实验设计满足滤光片与构建约束的蛋白方案</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>prove-plus-comm</code></td>
+          <td>证明加法交换律</td>
+          <td>补全 Coq 证明，证明自然数加法交换律</td>
+          <td>简单<br><code>easy</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>pypi-server</code></td>
+          <td>搭建 PyPI 服务</td>
+          <td>创建 vectorops 包，并在本地搭建可安装该包的 PyPI 服务</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>模型训练<br><code>model-training</code></td>
+          <td><code>pytorch-model-cli</code></td>
+          <td>PyTorch 模型命令行接口</td>
+          <td>实现 MNIST 模型命令行推理工具，只输出预测数字</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>模型训练<br><code>model-training</code></td>
+          <td><code>pytorch-model-recovery</code></td>
+          <td>PyTorch 模型恢复</td>
+          <td>根据权重和样本重建原始 PyTorch 模型结构</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>qemu-alpine-ssh</code></td>
+          <td>QEMU Alpine SSH</td>
+          <td>启动 Alpine 镜像并配置 SSH，使 localhost:2222 可登录</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>qemu-startup</code></td>
+          <td>QEMU 启动问题</td>
+          <td>以可经 telnet 访问登录提示的方式启动 Alpine QEMU</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>query-optimize</code></td>
+          <td>查询优化</td>
+          <td>优化给定 SQLite 查询，使结果不变但性能更好</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>raman-fitting</code></td>
+          <td>拉曼光谱拟合</td>
+          <td>拟合拉曼光谱的 G 峰和 2D 峰参数，并写入结果文件</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>regex-chess</code></td>
+          <td>正则国际象棋</td>
+          <td>写正则替换规则，生成某 FEN 下全部合法下一步局面</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>数据处理<br><code>data-processing</code></td>
+          <td><code>regex-log</code></td>
+          <td>日志正则提取</td>
+          <td>写正则匹配含 IPv4 日志行中的最后一个 YYYY-MM-DD 日期</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>reshard-c4-data</code></td>
+          <td>重切分 C4 数据</td>
+          <td>编写压缩与验证脚本，按要求重切分并处理数据集</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>rstan-to-pystan</code></td>
+          <td>RStan 迁移到 PyStan</td>
+          <td>将给定 RStan 脚本改写为 PyStan 3 版本并完成采样</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据科学<br><code>data-science</code></td>
+          <td><code>sam-cell-seg</code></td>
+          <td>SAM 细胞分割</td>
+          <td>用 Meta 的分割模型把矩形/折线掩码统一转换为折线</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>sanitize-git-repo</code></td>
+          <td>清洗 Git 仓库敏感信息</td>
+          <td>清理 GitHub 仓库中的 API key，并替换为占位值</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>schemelike-metacircular-eval</code></td>
+          <td>类 Scheme 元循环求值器</td>
+          <td>编写 metacircular evaluator，解释给定类 Scheme 语言</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>数据查询<br><code>data-querying</code></td>
+          <td><code>sparql-university</code></td>
+          <td>大学数据 SPARQL 查询</td>
+          <td>在大学知识图谱上编写 SPARQL 查询回答指定问题</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>调试<br><code>debugging</code></td>
+          <td><code>sqlite-db-truncate</code></td>
+          <td>截断损坏的 SQLite 数据库恢复</td>
+          <td>从二进制截断损坏的 SQLite 数据库中尽量恢复词条</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>系统管理<br><code>system-administration</code></td>
+          <td><code>sqlite-with-gcov</code></td>
+          <td>带 gcov 的 SQLite 构建</td>
+          <td>用 gcov instrumentation 编译 SQLite 并加入 PATH</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>torch-pipeline-parallelism</code></td>
+          <td>Torch 流水线并行</td>
+          <td>为 LLaMA 训练实现 PyTorch pipeline parallel</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>torch-tensor-parallelism</code></td>
+          <td>Torch 张量并行</td>
+          <td>为线性层实现 PyTorch tensor parallel</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>模型训练<br><code>model-training</code></td>
+          <td><code>train-fasttext</code></td>
+          <td>训练 FastText 模型</td>
+          <td>训练小于 150MB 且达到精度要求的 fastText Yelp 模型</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>科学计算<br><code>scientific-computing</code></td>
+          <td><code>tune-mjcf</code></td>
+          <td>调优 MJCF 模型</td>
+          <td>调优 MuJoCo MJCF，使模拟更快且状态误差受控</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>视频处理<br><code>video-processing</code></td>
+          <td><code>video-processing</code></td>
+          <td>视频处理</td>
+          <td>编写脚本分析跨栏视频，提取单次跳跃表现指标</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+        <tr>
+          <td>安全<br><code>security</code></td>
+          <td><code>vulnerable-secret</code></td>
+          <td>提取脆弱程序中的 secret</td>
+          <td>分析可执行程序并提取其中隐藏的 secret</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>winning-avg-corewars</code></td>
+          <td>平均胜率更高的 Corewars</td>
+          <td>编写 CoreWars 程序，对五个经典对手取得更高平均胜率</td>
+          <td>中等<br><code>medium</code></td>
+        </tr>
+        <tr>
+          <td>软件工程<br><code>software-engineering</code></td>
+          <td><code>write-compressor</code></td>
+          <td>编写压缩器</td>
+          <td>为给定解压器生成可正确解开的压缩数据 data.comp</td>
+          <td>困难<br><code>hard</code></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
