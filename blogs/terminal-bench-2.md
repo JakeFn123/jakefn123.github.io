@@ -751,8 +751,8 @@ description: 基于 tbench.ai、Harbor 与 Hugging Face 官方说明，纠正上
     <tbody>
       <tr>
         <td>准备环境</td>
-        <td>Harbor Quickstart 要求 Python 3.12+ 和 Docker。</td>
-        <td>先把 Docker 跑起来，再装 Harbor。</td>
+        <td>官方文档明确要求先把 Docker 环境准备好，再安装 Harbor。</td>
+        <td>先把 Docker 跑起来，然后再按当前文档安装 Harbor。</td>
       </tr>
       <tr>
         <td>安装 Harbor</td>
@@ -1022,7 +1022,7 @@ cp model.pt /logs/artifacts/model.pt
     <li>开 Pull Request</li>
   </ol>
 
-  <p>推荐的目录结构是：</p>
+  <p>README 里给了一个最小示意结构，但它主要是为了说明提交路径和 <code>metadata.yaml</code> 的位置，不代表 trial 目录里只需要放一个 <code>result.json</code>：</p>
 
   <div class="tb-code">
 <pre><code>submissions/
@@ -1060,7 +1060,7 @@ models:
     <li>不能覆盖 verifier timeout</li>
     <li>不能覆盖 CPU / memory / storage 资源</li>
     <li>所有 trial 目录都必须有合法的 <code>result.json</code></li>
-    <li>所有 trial 目录都必须包含其他运行 artifacts</li>
+    <li>所有 trial 目录都不能只有 <code>result.json</code>，还必须包含其他运行产物</li>
     <li>每个 task 至少要评估 5 次，README 直接建议用 <code>-k 5</code></li>
     <li>agent 不能访问 Terminal-Bench 网站或 GitHub 仓库，否则会被判定为 reward hacking</li>
   </ul>
