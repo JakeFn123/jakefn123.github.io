@@ -33,6 +33,11 @@ description: Technical notes and essays by Chaoyu Fan on agent system design, re
 <div class="blk-v2">
   <div class="sh-v2">Latest Post</div>
   <div class="ri-grid">
+    <div class="ri-card c-teal">
+      <div class="ri-title">Terminal-Bench 2.0 提交复盘：从跑分、轨迹清理到 Hugging Face PR</div>
+      <p>记录一次 Wecode GPT-5.5 leaderboard submission 的完整工程过程：跑分、误差范围、metadata、trajectory、system prompt 清理、目录结构和 PR 提交。</p>
+      <p style="margin-top:.6rem;"><a href="/blogs/terminal-bench-submission-engineering/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
+    </div>
     <div class="ri-card c-violet">
       <div class="ri-title">GPT-Image-2 提示词仓库整理：真正可复用的是四种写法</div>
       <p>基于一个高质量 GitHub prompt 仓库，整理出人像、海报、角色设定和 UI/信息图四类最值得复用的写法，并补上可直接改的中文模板。</p>
