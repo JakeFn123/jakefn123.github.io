@@ -33,6 +33,11 @@ description: Technical notes and essays by Chaoyu Fan on agent system design, re
 <div class="blk-v2">
   <div class="sh-v2">Latest Post</div>
   <div class="ri-grid">
+    <div class="ri-card c-teal">
+      <div class="ri-title">LLM Agent Harness 的协议适配问题：从一次 GLM-5.1 接入失败说起</div>
+      <p>记录一次把硅基流动 GLM-5.1 接入 Codex/Wecode 类 harness 的真实排障过程，并分析 Responses API 与 Chat Completions API 在 agent 系统里的协议边界。</p>
+      <p style="margin-top:.6rem;"><a href="/blogs/agent-harness-protocol-mismatch/" style="color:#2e4f63;font-weight:600;">阅读全文 →</a></p>
+    </div>
     <div class="ri-card c-blue">
       <div class="ri-title">Terminal-Bench 2.0 提分日志：把 Wecode GPT-5.5 从 83.8% 推到 88.1%</div>
       <p>记录 2026/04/30 这次更高分提交：从 373/445 到 392/445，以及背后的 agent harness 工程、trace 分析、错题闭环和同一个 Hugging Face PR 替换提交。</p>
